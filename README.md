@@ -32,6 +32,6 @@ npx playwright show-report     # open the HTML report
 - Assertions check business rules, not fixed product counts, because demo data can change.
 
 ## What I learned
-- A passing test is not always a correct test. Make each new test fail on purpose to prove that its assertion really works.
+- A passing test is not always a correct test. I make each new test fail on purpose to prove that its assertion really works.
 - When a test fails, I first decide whether the test or app is wrong. I read Expected vs Received, find the failing line, and check the screenshot and trace.
 - A 500 status code means a server error, not a problem in the test code.
